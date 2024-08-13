@@ -17,25 +17,17 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
+ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+ul li {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
 
 main {
     padding: 20px;
@@ -47,24 +39,6 @@ h2 {
     color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    background: #e4e4e4;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-ul li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-ul li a:hover {
-    text-decoration: underline;
+main a{
+    color: red;
 }
